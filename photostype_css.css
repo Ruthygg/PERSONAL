@@ -1,0 +1,47 @@
+body {
+	background-color: #040404;
+	background-image: url(photoshop_sliced_exports/background.jpg);
+	background-repeat: no-repeat;
+	color: #FFF;
+	margin: 0px;
+	height: 1000px;
+}
+#container {
+	height: 900px;
+	width: 955px;
+	float: left;
+}
+#menubar {
+	float: left;
+	height: 59px;
+	width: 862px;
+	margin-left: 54px;
+	margin-right: 42px;
+}
+#main {
+	float: left;
+	height: 900px;
+	width: 740px;
+	padding-right: 100px;
+	padding-left: 115px;
+}
+#content {
+	float: left;
+	height: 900px;
+	width: 720px;
+	background-color: #000;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#header {
+	float: left;
+	height: 113px;
+	width: 955px;
+}
+img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+

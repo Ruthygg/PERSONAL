@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+.albums {
+	float:left;
+	width:200px;
+	margin:0;
+}
+.grid {
+	float:left;
+	width:520px;
+	margin:0 0 0 15px;
+}
+
+.grid div.photo {
+	width:160px;
+	height:150px;
+	float:left;
+	text-align:center;
+	margin:4px 0 4px 0;
+}
+.grid div.photo img {
+	padding:4px;
+	background:white;
+	border:1px solid #999;
+}
+
+.grid .page-nav {
+	list-style-type:none;
+	margin:6px 0 10px 0;
+	padding:0;
+}
+.page-nav li {
+	display:inline;
+	padding:0 1px 0 1px;
+}
+.page-nav li a {
+	padding:5px;
+	background:#eee;
+	text-decoration:none;
+}
+.page-nav li a:hover {
+	background:#ebebeb;
+}
+.page-nav li.selected a {
+	background:#333;
+	color:white;
+}
